@@ -1,0 +1,27 @@
+name: graphose
+channels:
+  - pyg
+  - pytorch
+  - nvidia
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9.*
+  - pytorch=1.13.*
+  - torchvision=0.14.*
+  - pytorch-lightning=1.6.*
+  - torchmetrics=0.11.0
+  - torch-fidelity
+  - numpy=1.24.*
+  - matplotlib
+  - tqdm
+  - pyg=2.3.0
+  - pytorch-scatter
+  - pytorch-sparse
+  - cpuonly
+  - requests
+  - opencv
+  - networkx
+  - albumentations
+  - hydra-core=1.2.0
+  - environs=9.5.0
