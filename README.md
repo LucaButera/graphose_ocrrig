@@ -81,17 +81,15 @@ python main.py +datamodule=objects +model=baseline_gan +predictor=gan \
 
 ## Bibtex reference
 
-If you find this code useful please consider to cite our paper:
+If you find this code useful please consider citing our paper:
 
 ```
-@article{
-butera2024objectcentric,
-title={Object-Centric Relational Representations for Image Generation},
-author={Luca Butera and Andrea Cini and Alberto Ferrante and Cesare Alippi},
-journal={Transactions on Machine Learning Research},
-issn={2835-8856},
-year={2024},
-url={https://openreview.net/forum?id=7kWjB9zW90},
-note={}
+@article{butera2024objectcentric,
+  title={Object-Centric Relational Representations for Image Generation},
+  author={Luca Butera and Andrea Cini and Alberto Ferrante and Cesare Alippi},
+  journal={Transactions on Machine Learning Research},
+  issn={2835-8856},
+  year={2024},
+  url={https://openreview.net/forum?id=7kWjB9zW90}
 }
 ```
